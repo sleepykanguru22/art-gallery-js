@@ -1,0 +1,29 @@
+nav {
+  margin: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr; /* Four equal-width columns */
+  grid-gap: 10px; /* Gap between grid items */
+}
+
+.grid-item {
+  padding: 20px;
+  text-align: center;
+  /* background-color: #e0e0e0;
+  border: 1px solid #ccc; */
+}
+
+.grid-item img {
+  width: 100%;
+  margin: 1em 0;
+}
+
+ul {
+  list-style: none;
+}
+li {
+  margin: 25px 0;
+}
